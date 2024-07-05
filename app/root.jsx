@@ -5,6 +5,8 @@ import {
   Scripts,
 } from "@remix-run/react";
 
+import styles from "./root.module.css";
+
 export default function App() {
   return (
     <html>
@@ -17,9 +19,19 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <h1>Hello world!</h1>
+        <div className={styles.container}>
+          <nav>
+            <div className={styles.navcon}>
+              <h1 className={styles.homebutton}>Home</h1>
+            </div>
+          </nav>
+          <div className={styles.container}>
+            <div className={styles.subcon}>
+              
+            </div>
+          </div>
+        </div>
         <Outlet />
-
         <Scripts />
       </body>
     </html>

@@ -1,0 +1,45 @@
+* {
+  width: 100vw;
+  height: 100vh;
+  padding: 0%;
+  margin: 0%;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  border-bottom: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.navcon {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.homebutton {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+}
+
+.subcon {
+  width: 90%;
+  height: 80%;
+  border: solid black 3px;
+  border-radius: 1rem;
+  margin: 1rem;
+}
